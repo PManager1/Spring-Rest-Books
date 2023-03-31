@@ -6,6 +6,8 @@ import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+//This component will be registered as Bean and managed by the spring framework. 
+
 @RestController
 public class BooksController {
 //	/books
